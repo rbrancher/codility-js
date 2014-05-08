@@ -1,0 +1,5 @@
+function solution(A) {
+    var n = A.length,
+        a_sum = A.reduce(function (sum, el) { return sum + el; }, 0);
+    return a_sum === (n * (n + 1) / 2) ? 1 : 0;
+}
