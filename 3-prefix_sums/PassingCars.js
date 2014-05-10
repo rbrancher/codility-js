@@ -1,18 +1,18 @@
 function solution(A) {
     var n = A.length,
+        going_west = A.reduce(function (sum, el) { return el + sum; }, 0),
+        going_east = n - going_west,
         passing_count = 0;
 
-    for (var i = 0; i < n; i++) {
+    for (var i = 0; i < n - 1; i++) {
         if (A[i] === 0) { // going east
-            for (var j = i; j < n; j++) {
-                if (A[j] === 1) { // cross with going west
-                    passing_count++;
-                    if (passing_count > 1000000000) {
-                        passing_count = -1;
-                        break;
-                    }
-                }       
+            passing_count += going_west;
+            if (passing_count > 1000000000) {
+                passing_count = -1;
+                break;
             }
+        } else { // going west
+            going_west--;
         }
     }
     
