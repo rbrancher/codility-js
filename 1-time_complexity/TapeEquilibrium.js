@@ -13,3 +13,7 @@ function solution(A) {
 
     return min;
 }
+
+// 1st try 50/33 - https://codility.com/demo/results/demo56MY77-3PH/
+// 2nd try 66/100 - https://codility.com/demo/results/demoDWZRPH-8D2/
+// 3rd try 100/100 - https://codility.com/demo/results/demo9WRH7G-Q2R/

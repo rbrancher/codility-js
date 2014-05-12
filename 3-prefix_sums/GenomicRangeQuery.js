@@ -14,4 +14,4 @@ function solution(S, P, Q) {
     return queries;
 }
 
-// https://codility.com/demo/results/demo4AUFUE-GUF/
+// 1st try 100/0 - https://codility.com/demo/results/demo4AUFUE-GUF/

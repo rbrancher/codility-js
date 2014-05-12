@@ -18,3 +18,6 @@ function solution(A) {
 
     return uniq && (n * (n + 1) / 2) === sum ? 1 : 0;
 }
+
+// 1st try 75/60 - https://codility.com/demo/results/demoS53S4G-QEP/
+// 2nd try 100/100 - https://codility.com/demo/results/demoU6T7E8-WRJ/

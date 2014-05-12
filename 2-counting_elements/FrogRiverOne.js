@@ -21,3 +21,5 @@ function solution(X, A) {
 
     return step_count;
 }
+
+// https://codility.com/demo/results/demoCCQMX6-Y2K/

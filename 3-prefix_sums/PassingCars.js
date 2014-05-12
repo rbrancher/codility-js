@@ -18,3 +18,6 @@ function solution(A) {
     
     return passing_count;
 }
+
+// with silly bug: https://codility.com/demo/results/demoEX26D3-RK2/
+// fixed: https://codility.com/demo/results/demoKBTDXS-9UJ/

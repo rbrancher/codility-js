@@ -20,3 +20,6 @@ function solution(N, A) {
 
     return counters.slice(1);    
 }
+
+// 1st try 100/60 - https://codility.com/demo/results/demo3TVEUC-P3V/
+// 2nd try 100/80 - https://codility.com/demo/results/demoKWVCP3-5MM/
