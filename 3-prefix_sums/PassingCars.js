@@ -19,5 +19,5 @@ function solution(A) {
     return passing_count;
 }
 
-// with silly bug: https://codility.com/demo/results/demoEX26D3-RK2/
-// fixed: https://codility.com/demo/results/demoKBTDXS-9UJ/
+// 100/40 with silly bug: https://codility.com/demo/results/demoEX26D3-RK2/
+// 100/100 fixed: https://codility.com/demo/results/demoKBTDXS-9UJ/
