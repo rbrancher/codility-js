@@ -24,3 +24,5 @@ function solution(A) {
 
     return intersections;
 }
+
+// solve with 100/37 - https://codility.com/demo/results/demo568B7X-93W/
